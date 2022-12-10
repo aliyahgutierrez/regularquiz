@@ -9,40 +9,29 @@
 
 
 </head>
-
-<!-- a place to view highscores -->
-<!-- container for quiz -->
-<!-- timer -->
-<!-- header for quiz -->
-<!-- start button -->
-<!-- questions w multiple choices -->
-<!-- alerts user when question is answered wrong -->
-<!-- shows final score -->
-<!-- log intatls to store final score -->
-<!-- shows highscores -->
-<!-- has a go back button and a clear the log button -->
-
 <body>
     <main>
         <!-- View Highscores -->
         <a href="highscores.html">View highscores</a>
-        <!-- Timer -->
-        <div id=""></div>
-        <!-- wrapper? -->
-        <div id="">
-            <!-- Quiz Content -->
-            <div id="">
-                <h1>Quuuuuuuuuuuizzzzz Tiiiiimmeeeee</h1>
-                <p>Try to answer the following questions about Regular Show!
-                    This quiz is timed and incorrect answers will penalize your score and time by 10 seconds!
-                    Good luck! HMM HMM !
-                </p>
-                <ul id=""></ul>
-                <!-- buttons -->
-                <button id=""></button>
-            </div>
+
+        <!-- Div For The Timer -->
+        <div id="countdown"></div>
+
+        <!-- Quiz Content -->
+        <div id="questions">
+            <h1>quiz time</h1>
+            <p>Try to answer the following questions about Regular Show!
+                This quiz is timed and incorrect answers will penalize your score and time by 10 seconds!
+                Good luck!
+            </p>
+            <ul id="choicesUl"></ul>
+            <!-- buttons -->
+            <div id="startButton"><button id="gameStart" onclick="">START</button></div>
         </div>
+
     </main>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 
 </html>
